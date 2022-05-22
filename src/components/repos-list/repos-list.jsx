@@ -57,7 +57,8 @@ export const ReposList = ({ user }) => {
           </div>
           <div className="repos-list__paginate-wrapper">
             <span>
-              {itemOffset + 1}-{itemOffset + 4} of {user.public_repos} items
+              {itemOffset + 1}-{itemOffset + 4 > user.public_repos ? user.public_repos : itemOffset + 4} of{' '}
+              {user.public_repos} items
             </span>
             <ReactPaginate
               breakLabel="..."

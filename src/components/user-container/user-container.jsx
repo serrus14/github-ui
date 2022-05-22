@@ -9,6 +9,6 @@ export const UserContainer = ({ user }) => (
   <div className="user-container">
     <UserCard user={user} />
     {!user.public_repos && <FullscreenMessage icon={<img src={noReposIcon} />} message="Repository list is empty" />}
-    {user.public_repos && <ReposList user={user} />}
+    {!!user.public_repos && <ReposList user={user} />}
   </div>
 );
