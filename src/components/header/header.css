@@ -1,0 +1,6 @@
+.header {
+  display: flex;
+  gap: 22px;
+  background-color: var(--main-color);
+  padding: 16px 16px 16px 40px;
+}

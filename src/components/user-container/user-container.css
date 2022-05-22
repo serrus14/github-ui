@@ -1,0 +1,12 @@
+.user-container {
+  display: flex;
+  gap: 96px;
+  height: 100%;
+}
+
+@media (max-width: 878px) {
+  .user-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

@@ -1,0 +1,15 @@
+.repo-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 24px 32px;
+  gap: 16px;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.repo-card__title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}

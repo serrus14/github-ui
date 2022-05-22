@@ -1,0 +1,16 @@
+.fullscreen-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  gap: 18px;
+  height: 100%;
+}
+
+.fullscreen-message__text {
+  font-size: 1.375rem;
+  color: var(--secondary-color);
+  max-width: 244px;
+  text-align: center;
+}
